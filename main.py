@@ -23,7 +23,7 @@ while True:
     if texto == '/random':
         print(1)
     elif texto == '/peido':
-        playsound('/home/mikaritos/Documentos/Programa/python project/Mini chat/fart.mp3')
+        playsound.playsound('../sound/fart.mp3')
     elif texto == '/creeper':
         print(':::::::      :::::::')
         print(':::::::      :::::::')
@@ -36,7 +36,7 @@ while True:
         print('   ::::::::::::::')
         print('   ::::      ::::')
         print('   ::::      ::::')
-        playsound('/home/mikaritos/Documentos/Programa/python project/Mini chat/creeper.mp3')            
+        playsound.playsound('../sound/creeper.mp3')            
     if texto == "/calcular":
         operador = input("Quais tipos de operação?: + - * /")
         if operador == '/sair' or texto == '/sair':
